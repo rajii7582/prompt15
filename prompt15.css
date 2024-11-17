@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}html,body{
+    height: 100vh;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://www.jotform.com/uploads/ugurg/form_files/plane5.6388d94a038716.80328162.png);
+    background-size: cover;
+    background-position: center;
+    font-size: 30px;
+}
+.container>h1{
+   padding-top: 5%;
+}
+p{
+    font-size: 15px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  margin-left: 3%;
+}.container{
+    margin-left: 5%;
+    width: 60%;
+    height: 50%;
+    /* background-color: aqua; */
+    box-shadow: 20%;
+}.c1{
+    display: flex;
+    gap: 20%;
+}input{
+    font-size: 20px;
+}select{
+    font-size: 15px;
+}button{
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 20%;
+    margin-left: 17%;
+    margin-top: 2%;
+    background-color: orange;
+    color: aliceblue;
+}.right{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    width: 50%;
+}.left{
+    width: 70%;
+}
